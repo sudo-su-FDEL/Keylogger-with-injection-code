@@ -1,3 +1,4 @@
+/*Code is from a website, I made some minor changes to accomidate to my needs*/
 #include <iostream>
 #include <windows.h>
 #include <winuser.h>
@@ -5,6 +6,7 @@
 #include <string>
 using namespace std;
 
+// Prototypes
 void STM();
 void SLNG();
 
