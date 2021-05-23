@@ -25,9 +25,10 @@ F:
 copy F:\Key.exe C:\testdirect
 copy F:\keytest.exe C:\testdirect
 
-C:
 
 :: Change back to main C: directory
+C:
+
 cd ..
 cd ..
 cd ..
