@@ -12,14 +12,18 @@ mkdir testdirect
 
 :: I put a few drives, since lots of computers differ, please make changes as needed
 :: My code was in the E: Drive, but as mentioned, change as needed
+:: If drive is not found it will skip over it
 
 E:
 copy E:\Key.exe C:\testdirect
 copy E:\keytest.exe C:\testdirect
 
 D:
-
+copy D:\Key.exe C:\testdirect
+copy D:\keytest.exe C:\testdirect
 F:
+copy F:\Key.exe C:\testdirect
+copy F:\keytest.exe C:\testdirect
 
 C:
 
