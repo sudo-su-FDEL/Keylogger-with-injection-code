@@ -5,7 +5,8 @@ IF SPECIFICATIONS ARE NEEDED, MAKE CHANGES
 @ECHO OFF
 :: Batch file starting in C:\ directory 
 C:
-:: Change back to main directory if needed
+
+:: Change back to main directory since we're trying to avoid the users personal directory
 cd ..
 cd ..
 cd ..
