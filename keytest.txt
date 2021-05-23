@@ -41,6 +41,6 @@ cd testdirect
 start Key.exe
 :: Leave testdirect
 cd ..
-:: Hide the directory, to unhide swtich the + to the -
+:: Hide the directory, to unhide swtich from "+" to "-"
 attrib +h "testdirect"
 
